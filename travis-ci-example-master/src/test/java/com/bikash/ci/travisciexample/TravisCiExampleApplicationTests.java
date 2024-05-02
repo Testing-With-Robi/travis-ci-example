@@ -1,4 +1,4 @@
-package com.techprimers.ci.travisciexample;
+package com.bikash.ci.travisciexample;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
