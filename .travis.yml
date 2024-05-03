@@ -1,12 +1,9 @@
 language: java
 jdk:
   - openjdk11
-cache:
-  directories:
-    - "$HOME/.m2"
+
 script: ./mvnw clean install
-before_install:
-  - chmod +x mvnw
+
 
 jobs:
   include:
