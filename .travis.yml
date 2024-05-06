@@ -3,7 +3,8 @@ jdk:
   - openjdk11
 
 script: ./mvnw clean install
-
+deploy:
+access_key:$BIKASH_KEY
 
 jobs:
   include:
