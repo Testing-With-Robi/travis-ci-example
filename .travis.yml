@@ -4,7 +4,7 @@ jdk:
 
 script: ./mvnw clean install
 deploy:
-access_key:$BIKASH_KEY
+access_key: $BIKASH_KEY
 
 jobs:
   include:
